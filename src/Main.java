@@ -8,7 +8,9 @@ public class Main {
 
         int bonus = replenishment/100;
 
-        if (replenishment < 1000) bonus = 0;
+        if (replenishment < 1000) {
+            bonus = 0;
+        }
 
 
         System.out.println(check + replenishment);
