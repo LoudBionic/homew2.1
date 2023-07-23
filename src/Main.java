@@ -6,7 +6,7 @@ public class Main {
         int check = 100;
         int replenishment = 1400;
 
-        int bonus = replenishment/100;
+        int bonus = replenishment / 100;
 
         if (replenishment < 1000) {
             bonus = 0;
